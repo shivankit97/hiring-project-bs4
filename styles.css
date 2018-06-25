@@ -1,0 +1,68 @@
+body {
+    width: 100%;
+    height: 100%;
+    background-color: antiquewhite;
+}
+
+.navbar {
+    padding: 7px;
+}
+
+.navbar-brand {
+    font-size: 30px;
+    font-family: "Raleway";
+    padding-left: 8px;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #000;
+}
+
+.navbar li {
+    font-size: 20px;
+}
+
+#problems {
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+}
+
+#problems h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+ h1 {
+    font-size: 400%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h2 {
+    font-family: "Raleway";
+}
+
+.tab-content {
+    background-color: rgb(125, 211, 151);
+}
+
+.bg, .bg2 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+} 
+
+.bg {
+    z-index: -1;
+    -webkit-clip-path: polygon(84% 65%, 100% 6%, 100% 85%, 0 86%);
+    clip-path: polygon(84% 65%, 100% 6%, 100% 85%, 0 86%);
+    background-color: rgb(243, 124, 26);
+    
+}
+
+.bg2 {
+    z-index: -2;
+    -webkit-clip-path: polygon(0 100%, 14% 19%, 100% 23%, 0 2%);
+    clip-path: polygon(0 100%, 14% 19%, 100% 23%, 0 2%);
+    background-color: rgb(255, 255, 44);
+}
+
+footer {
+    background-color: burlywood;
+}
